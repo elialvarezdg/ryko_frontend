@@ -5,8 +5,10 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/ryko_frontend/',
   plugins: [
-    react(), tailwindcss(),
+    react(),
+    tailwindcss(),
     babel({ presets: [reactCompilerPreset()] })
   ],
 })
