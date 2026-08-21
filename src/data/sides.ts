@@ -14,7 +14,7 @@ export const sides: Side[] = [
     description: "Papas crujientes con nuestro toque especial.",
     price: 250,
     tag: "Classic",
-    image: "public/images/sides/ryko_fries.png",
+    image: "/images/sides/ryko_fries.png",
   },
   {
     id: 2,

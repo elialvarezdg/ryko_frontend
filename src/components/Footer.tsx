@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Footer() {
   return (
     <footer className="relative overflow-hidden bg-[#0A0A0A] px-6 py-16 text-[#F5F5F2]">
@@ -30,26 +32,26 @@ function Footer() {
                 Navegación
               </p>
 
-              <a
-                href="/menu"
+              <Link
+                to="/menu"
                 className="transition-colors hover:text-[#E53935]"
               >
                 Menú
-              </a>
+              </Link>
 
-              <a
-                href="/about_us"
+              <Link
+                to="/about_us"
                 className="transition-colors hover:text-[#E53935]"
               >
                 Nosotros
-              </a>
+              </Link>
 
-              <a
-                href="/contact"
+              <Link
+                to="/contact"
                 className="transition-colors hover:text-[#E53935]"
               >
                 Contacto
-              </a>
+              </Link>
 
             </div>
 
@@ -61,26 +63,26 @@ function Footer() {
                 Síguenos
               </p>
 
-              <a
-                href="#"
+              <Link
+                to="/instagram"
                 className="transition-colors hover:text-[#E53935]"
               >
                 Instagram
-              </a>
+              </Link>
 
-              <a
-                href="#"
+              <Link
+                to="/facebook"
                 className="transition-colors hover:text-[#E53935]"
               >
                 Facebook
-              </a>
+              </Link>
 
-              <a
-                href="#"
+              <Link
+                to="/twitter"
                 className="transition-colors hover:text-[#E53935]"
               >
                 X
-              </a>
+              </Link>
 
             </div>
 
