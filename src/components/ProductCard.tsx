@@ -1,12 +1,26 @@
 import { useCart } from "../context/useCart"
+import type { Burger } from "../data/burger"
 import type { Product } from "../data/menu"
 
 interface ProductCardProps {
-  product: Product
+  product: Burger | Product
 }
 
 function ProductCard({ product }: ProductCardProps) {
   const { addToCart } = useCart()
+
+  function handleAddToCart() {
+    if ("category" in product) {
+      addToCart(product)
+      return
+    }
+
+    addToCart({
+      ...product,
+      id: `burgers-${product.id}`,
+      category: "burgers",
+    })
+  }
 
   return (
     <article className="group relative overflow-hidden bg-white text-[#0A0A0A] transition-transform duration-300 hover:-translate-y-2">
@@ -52,7 +66,7 @@ function ProductCard({ product }: ProductCardProps) {
         </p>
 
         <button
-          onClick={() => addToCart(product)}
+          onClick={handleAddToCart}
           className="mt-6 w-full border-2 border-[#0A0A0A] px-5 py-3 text-xs font-black uppercase tracking-widest transition-all duration-300 hover:border-[#E53935] hover:bg-[#E53935] hover:text-white"
         >
           Agregar
