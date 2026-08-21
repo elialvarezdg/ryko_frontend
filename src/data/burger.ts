@@ -14,7 +14,7 @@ export const burgers: Burger[] = [
     description: "Carne, queso, salsa de la casa y actitud.",
     price: 500,
     tag: "Original",
-    image: "public/images/burgers/ryko_classic.png",
+    image: "images/burgers/ryko_classic.png",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ export const burgers: Burger[] = [
     description: "Carne, queso, salsa picante y mucho carácter.",
     price: 600,
     tag: "Picante",
-    image: "public/images/burgers/ryko_brava.png",
+    image: "images/burgers/ryko_brava.png",
   },
   {
     id: 3,
@@ -30,6 +30,6 @@ export const burgers: Burger[] = [
     description: "Doble carne, doble queso. Sin medias tintas.",
     price: 700,
     tag: "Double",
-    image: "public/images/burgers/ryko_double.png",
+    image: "images/burgers/ryko_double.png",
   },
 ]

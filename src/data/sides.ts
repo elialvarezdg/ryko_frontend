@@ -22,7 +22,7 @@ export const sides: Side[] = [
     description: "Papas, queso y salsa RYKO. Sin reglas.",
     price: 400,
     tag: "Favorita",
-    image: "public/images/sides/ryko_loaded_fries.png",
+    image: "images/sides/ryko_loaded_fries.png",
   },
   {
     id: 3,
@@ -30,6 +30,6 @@ export const sides: Side[] = [
     description: "Aros de cebolla crujientes y llenos de sabor.",
     price: 350,
     tag: "Crunch",
-    image: "public/images/sides/ryko_onion_rings.png",
+    image: "images/sides/ryko_onion_rings.png",
   },
 ]

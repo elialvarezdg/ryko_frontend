@@ -14,7 +14,7 @@ export const chicken: Chicken[] = [
     description: "Pollo crujiente, queso, salsa de la casa y actitud.",
     price: 550,
     tag: "Crispy",
-    image: "public/images/chickens/ryko_chicken.png",
+    image: "images/chickens/ryko_chicken.png",
   },
   {
     id: 2,
@@ -22,6 +22,6 @@ export const chicken: Chicken[] = [
     description: "Trozos de pollo crujiente con salsa RYKO.",
     price: 450,
     tag: "Share",
-    image: "public/images/chickens/ryko_chicken_bites.png",
+    image: "images/chickens/ryko_chicken_bites.png",
   },
 ]

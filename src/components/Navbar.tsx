@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from "react-router-dom"
 import { useCart } from "../context/useCart"
 import Cart from "./Cart"
 
@@ -17,35 +18,35 @@ function Navbar() {
     <header className="fixed left-0 top-0 z-50 w-full border-b border-white/10 bg-[#0A0A0A]/95 text-[#F5F5F2] backdrop-blur-md">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
         {/* Logo */}
-        <a
-          href="/"
+        <Link
+          to="/"
           className="text-3xl font-black italic tracking-tighter"
         >
           RYKO
-        </a>
+        </Link>
 
         {/* Desktop navigation */}
         <div className="hidden items-center gap-8 md:flex">
-          <a
-            href="/menu"
+          <Link
+            to="/menu"
             className="text-sm font-bold uppercase tracking-widest transition-colors hover:text-[#E53935]"
           >
             Menú
-          </a>
+          </Link>
 
-          <a
-            href="/about_us"
+          <Link
+            to="/about_us"
             className="text-sm font-bold uppercase tracking-widest transition-colors hover:text-[#E53935]"
           >
             Nosotros
-          </a>
+          </Link>
 
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="text-sm font-bold uppercase tracking-widest transition-colors hover:text-[#E53935]"
           >
             Contacto
-          </a>
+          </Link>
         </div>
 
         {/* Desktop cart */}

@@ -14,7 +14,7 @@ export const desserts: Dessert[] = [
     description: "Chocolate intenso para terminar arriba.",
     price: 300,
     tag: "Sweet",
-    image: "public/images/desserts/ryko_brownie.png",
+    image: "images/desserts/ryko_brownie.png",
   },
   {
     id: 2,
@@ -22,6 +22,6 @@ export const desserts: Dessert[] = [
     description: "Cremoso, suave y con estilo propio.",
     price: 400,
     tag: "Special",
-    image: "public/images/desserts/ryko_cheesecake.png",
+    image: "images/desserts/ryko_cheesecake.png",
   },
 ]

@@ -14,7 +14,7 @@ export const drinks: Drink[] = [
     description: "El clásico que acompaña cualquier RYKO.",
     price: 150,
     tag: "Classic",
-    image: "public/images/drinks/ryko_coca_cola.png",
+    image: "images/drinks/ryko_coca_cola.png",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ export const drinks: Drink[] = [
     description: "Limonada fresca con actitud RYKO.",
     price: 250,
     tag: "House",
-    image: "public/images/drinks/ryko_fresh.png",
+    image: "images/drinks/ryko_fresh.png",
   },
   {
     id: 3,
@@ -30,6 +30,6 @@ export const drinks: Drink[] = [
     description: "Batido cremoso para cerrar la experiencia.",
     price: 350,
     tag: "Sweet",
-    image: "public/images/drinks/ryko_shake.png",
+    image: "images/drinks/ryko_shake.png",
   },
 ]
