@@ -34,7 +34,7 @@ function FeaturedBurger() {
           {/* Imagen */}
           <div className="relative flex min-h-105 items-center justify-center overflow-hidden bg-[#0A0A0A] md:min-h-130">
             <img
-              src="/images/burgers/ryko_double.png"
+              src={`${import.meta.env.BASE_URL}images/burgers/ryko_double.png`}
               alt="RYKO Double"
               className="relative z-10 w-[75%] max-w-xl object-contain transition-transform duration-500 hover:scale-105"
             />

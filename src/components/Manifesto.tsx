@@ -53,7 +53,7 @@ function Manifesto() {
 
             {/* Burger */}
             <img
-              src="/images/burgers/ryko_brava.png"
+              src={`${import.meta.env.BASE_URL}images/burgers/ryko_brava.png`}
               alt="RYKO Brava"
               className="relative z-10 w-[85%] max-w-96 object-contain drop-shadow-2xl transition-transform duration-500 hover:scale-105"
             />

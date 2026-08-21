@@ -60,7 +60,7 @@ function Hero() {
           <div className="absolute h-65 w-65 -rotate-5 border border-[#E53935] sm:h-85 sm:w-85 lg:h-105 lg:w-105" />
 
           <img
-            src="/images/burgers/ryko_classic.png"
+            src={`${import.meta.env.BASE_URL}images/burgers/ryko_classic.png`}
             alt="RYKO Classic"
             className="relative z-10 w-[90%] max-w-130 object-contain drop-shadow-2xl transition-transform duration-500 hover:scale-105"
           />
