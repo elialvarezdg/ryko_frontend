@@ -11,7 +11,7 @@ import { CartProvider } from "./context/CartProvider"
 function App() {
   return (
     <CartProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/ryko_frontend">
         <ScrollToTop />
 
         <Routes>
